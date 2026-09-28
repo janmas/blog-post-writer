@@ -1,0 +1,22 @@
+embabel:
+  models:
+    default-llm: claude-haiku-4-5
+    llms:
+      reviewer: claude-haiku-4-5
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: embabel-blog-post-writer
+  main:
+    web-application-type: servlet
+  shell:
+    interactive:
+      enabled: false
+    script:
+      enabled: false
+    command:
+      version:
+        enabled: false

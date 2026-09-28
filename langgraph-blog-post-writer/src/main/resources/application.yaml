@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: langgraph-blog-post-write
+
+server:
+  port: 8081
+
+llm:
+  anthropic:
+    apiKey: ${ANTHROPIC_API_KEY}
+    model: claude-haiku-4-5
+    temperature: 0.7
